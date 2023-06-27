@@ -18,7 +18,7 @@ afterEach(() => {
 
 
 
-
+// tried but couldn't get the tests to work in the time frame
  test('test that App component doesn\'t render dupicate Task', () => {
   render(<App />);
  });
@@ -41,3 +41,4 @@ afterEach(() => {
  test('test that App component renders different colors for past due events', () => {
   render(<App />);
  });
+
